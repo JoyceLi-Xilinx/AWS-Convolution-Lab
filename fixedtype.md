@@ -123,7 +123,7 @@ Here is the Profile Summary report for hardware emulation. The kernel execution 
 
 ![][fixedtype_hwemu_profilesummary]
 
-Here is the updated table. There is a 3.4x boost on kernel execution time perspective.
+Here is the updated table. There is a 4.2x boost on kernel execution time perspective.
 
 | Step              | Image Size | Time (HW-EM)(ms) | Reads (KB)      | Writes (KB) | Avg. Read (KB) | Avg. Write (KB) | BW (MBps)  |
 | :---------------- | :--------- | ---------------: | --------------: | ----------: | -------------: | --------------: | ---------: |
