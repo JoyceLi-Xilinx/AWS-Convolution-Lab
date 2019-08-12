@@ -67,6 +67,7 @@ cd build/baseline
 ```
 mv ./sdaccel_profile_summary.csv sdaccel_profile_summary_hw.csv
 mv ./sdaccel_profile_summary.csv sdaccel_profile_summary_hw.csv
+cd ../../design/makefile
 make gen_report TARGET=hw STEP=baseline
 ```
 
