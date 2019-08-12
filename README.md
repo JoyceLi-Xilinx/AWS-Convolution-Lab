@@ -1,7 +1,7 @@
 
 <table>
  <tr>
-   <td align="center"><img src="https://www.xilinx.com/content/dam/xilinx/imgs/press/media-kits/corporate/xilinx-logo.png" width="30%"/><h1>2019.1 SDAccel™ Development Environment Tutorials</h1>
+   <td align="center"><img src="https://www.xilinx.com/content/dam/xilinx/imgs/press/media-kits/corporate/xilinx-logo.png" width="30%"/><h1>2018.3 SDAccel™ Development Environment Tutorials</h1>
    <a href="https://github.com/Xilinx/SDAccel-Tutorials/branches/all">See other versions</a>
    </td>
  </tr>
@@ -71,7 +71,7 @@ This tutorial requires that the ffmpeg framework is installed on the machine whe
 The labs in this tutorial use:
 
 * BASH Linux shell commands.
-* 2019.1 SDx release and the *xilinx_u200_xdma_201830_1* platform. If necessary, it can be easily ported to other versions and platforms.
+* 2018.3 SDx release and the *aws-vu9p-f1-04261818_dynamic_5_0* platform.
 * A `Makefile` that is detailed and contains many steps and variables. For a discussion of the `Makefile` structure and contents, refer to [Understanding the Makefile](./HowToRunTutorial.md).
 
 >**IMPORTANT:**  
@@ -79,10 +79,6 @@ The labs in this tutorial use:
 > * Before running any of the examples, make sure you have installed Xilinx Runtime (XRT) and SDAccel development environment as described in the *SDAccel Development Environment Release Notes, Installation, and Licensing Guide* ([UG1238)](https://www.xilinx.com/html_docs/xilinx2019_1/sdaccel_doc/yrc1534452173645.html).
 >* If you run applications on the Alveo™ card, ensure the card and software drivers have been correctly installed by following the instructions in the *Getting Started with Alveo Data Center Accelerator Cards Guide* ([UG1301](https://www.xilinx.com/support/documentation/boards_and_kits/accelerator-cards/ug1301-getting-started-guide-alveo-accelerator-cards.pdf)).
 
-## Accessing the Tutorial Reference Files
-
-1. To access the reference files, enter the following in a terminal: `git clone  http://github.com/Xilinx/SDAccel-Tutorials`.
-2. Navigate to the `convolution-tutorial` directory, and then access the `design` directory.
 
 # Tutorial Overview
 
