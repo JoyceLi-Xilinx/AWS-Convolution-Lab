@@ -114,7 +114,7 @@ Use the following instructions to convert the C code into kernel code, and conve
 
 | Step          | Image Size | Time (HW-EM)(ms) | Reads (KB) | Writes (KB) | Avg. Read (KB) | Avg. Write (KB) | BW (MBps) |
 | :------------ | :--------- | ---------------: | ---------: | ----------: | -------------: | --------------: | --------: |
-| baseline      | 512x10     | 10.807            | 344        | 20.0        | 0.004          | 0.004           |   5.2     |
+| baseline      | 512x10     | 10.807            | 344        | 20.0        | 0.004          | 0.004           |   1.9     |
 
 ---------------------------------------
 
