@@ -1,11 +1,6 @@
 
 <table>
- <tr>
-   <td align="center"><img src="https://www.xilinx.com/content/dam/xilinx/imgs/press/media-kits/corporate/xilinx-logo.png" width="30%"/><h1>2018.3 SDAccel™ Development Environment Tutorials</h1>
-   <a href="https://github.com/Xilinx/SDAccel-Tutorials/branches/all">See other versions</a>
-   </td>
- </tr>
- <tr>
+<tr>
  <td align="center"><h1>Methodology for Optimizing Accelerated FPGA Applications
  </td>
  </tr>
