@@ -166,7 +166,7 @@ The final performance benchmarking table displays as follows.
 
 ## Conclusion
 
-Congratulations! You have successfully completed all the modules of this lab to convert a standard CPU-based application into an FPGA accelerated application, running with nearly 300X the throughput when running on the Alveo U200 accelerator card. You set performance objectives, and then you employed a series of optimizations to achieve your objectives.
+Congratulations! You have successfully completed all the modules of this lab to convert a standard CPU-based application into an FPGA accelerated application, running with nearly 300X the throughput when running on the AWS F1 VU9P card. You set performance objectives, and then you employed a series of optimizations to achieve your objectives.
 
 1. You created an SDAccel application from a basic C application.
 1. You familiarized yourself with the reports generated during software and hardware emulation.
@@ -174,7 +174,8 @@ Congratulations! You have successfully completed all the modules of this lab to 
 1. You learned how to set an OpenCL API command queue to execute out-of-order for improved performance.
 1. You enabled your kernel to run on multiple CUs.
 1. You used the HLS dataflow directive, and explored how it affected your application.
-1. You ran the optimized application on the Alveo accelerator card to see the actual performance gains.
+1. You ran the optimized application on the AWS F1 VU9P card to see the actual performance gains.
+1. You get familiar with running accelerated applications on AWS F1 FPGA instance. 
 
 </br>
 <hr/>
