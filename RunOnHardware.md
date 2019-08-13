@@ -31,8 +31,7 @@ make build TARGET=hw STEP=[baseline/localbuf/fixedpoint/dataflow/multicu] SOLUTI
 
 ```
 $SDACCEL_DIR/tools/create_sdaccel_afi.sh -xclbin=<input_xilinx_fpga_binary_xclbin_filename>
-		-o=<output_aws_fpga_binary_awsxclbin_filename_root> \
-		-s3_bucket = <bucket-name> -s3_dcp_key = <dcp-folder-name> -s3_logs_key = <logs-folder-name>
+		-o=<output_aws_fpga_binary_awsxclbin_filename_root> -s3_bucket=<bucket-name> -s3_dcp_key=<dcp-folder-name> -s3_logs_key=<logs-folder-name>
 ```
 
 3. Step2 will create a *_afi_id.txt file, open this file and record the AFI Id.
@@ -175,7 +174,7 @@ Congratulations! You have successfully completed all the modules of this lab to 
 1. You enabled your kernel to run on multiple CUs.
 1. You used the HLS dataflow directive, and explored how it affected your application.
 1. You ran the optimized application on the AWS F1 VU9P card to see the actual performance gains.
-1. You get familiar with running accelerated applications on AWS F1 FPGA instance. 
+1. You get familiar with running accelerated applications on AWS F1 FPGA instance.
 
 </br>
 <hr/>

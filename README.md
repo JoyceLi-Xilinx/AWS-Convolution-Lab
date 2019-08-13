@@ -69,11 +69,6 @@ The labs in this tutorial use:
 * 2018.3 SDx release and the *aws-vu9p-f1-04261818_dynamic_5_0* platform.
 * A `Makefile` that is detailed and contains many steps and variables. For a discussion of the `Makefile` structure and contents, refer to [Understanding the Makefile](./HowToRunTutorial.md).
 
->**IMPORTANT:**  
->
-> * Before running any of the examples, make sure you have installed Xilinx Runtime (XRT) and SDAccel development environment as described in the *SDAccel Development Environment Release Notes, Installation, and Licensing Guide* ([UG1238)](https://www.xilinx.com/html_docs/xilinx2019_1/sdaccel_doc/yrc1534452173645.html).
->* If you run applications on the Alveo™ card, ensure the card and software drivers have been correctly installed by following the instructions in the *Getting Started with Alveo Data Center Accelerator Cards Guide* ([UG1301](https://www.xilinx.com/support/documentation/boards_and_kits/accelerator-cards/ug1301-getting-started-guide-alveo-accelerator-cards.pdf)).
-
 
 # Tutorial Overview
 

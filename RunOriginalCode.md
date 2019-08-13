@@ -37,7 +37,7 @@ cd convolution-tutorial/design/cpu_src
 make golden
 ```
 
-The first output file generated, `golden_out_full.mp4` is a full movie with 132 frames. Each frame is 1980x1080 pixels. This golden output file is used for all hardware runs as applications can run very quickly on hardware. However, for emulation, you use smaller files with only one frame for a quicker turnaround.  
+The first output file generated, `golden_out_full.mp4` is a full movie with 132 frames. Each frame is 1920x1080 pixels. This golden output file is used for all hardware runs as applications can run very quickly on hardware. However, for emulation, you use smaller files with only one frame for a quicker turnaround.  
 
 Here is the summary of the generated golden output files.
 
